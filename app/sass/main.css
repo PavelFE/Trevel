@@ -4,22 +4,42 @@ body {
   padding-left: 250px;
   padding-right: 200px;
   margin: 0;
-  background: url("..//img/Background.jpg");
+  background-image: url("..//img/Background.jpg");
   border: 3px solid red; }
 
 .main_content {
-  width: 910px;
-  border: 2px solid greenyellow; }
+  border: 2px solid greenyellow;
+  height: 170px; }
+
+.top_logo {
+  position: relative;
+  background: beige;
+  height: 175px; }
 
 header {
-  display: flex;
+  display: inline-flex; }
+
+.header_contact {
+  right: 0;
+  margin-left: 395px;
+  padding-right: 23px;
+  font-size: 14px; }
+
+.header_contact ul {
+  list-style: none; }
+
+.flag {
+  display: inline-block;
+  bottom: 0; }
+
+.flag ul {
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
   display: inline-block; }
 
-img {
-  width: 283px;
-  height: 164px; }
-
-.contacts {
-  float: right; }
+.flag_item a {
+  width: 60px;
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
