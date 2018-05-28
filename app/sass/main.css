@@ -8,6 +8,7 @@ body {
   border: 3px solid red; }
 
 .main_content {
+  width: 910px;
   border: 2px solid greenyellow; }
 
 header {
