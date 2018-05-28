@@ -1,0 +1,26 @@
+{
+  "name": "gulp_trevel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PavelFE/Trevel.git"
+  },
+  "author": "PavelFE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelFE/Trevel/issues"
+  },
+  "homepage": "https://github.com/PavelFE/Trevel#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  },
+  "description": ""
+}
